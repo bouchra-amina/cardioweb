@@ -37,7 +37,6 @@ app.post("/api/register", (req, res) => {
         age: req.body.age,
         sexe: req.body.sexe,
         wilaya: req.body.wilaya,
-        telephone: req.body.telephone,
         profession: req.body.profession,
         maladies: req.body.maladies
     };
